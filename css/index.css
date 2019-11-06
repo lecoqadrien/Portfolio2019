@@ -83,7 +83,7 @@ font-face {
 h1 {
 	font-size: 80px;
 	font-family: 'Muli', sans-serif;
-	font-weight: lighter;
+	font-weight: bold;
 	text-align: center;
 	color: #566780;
 }
@@ -99,8 +99,8 @@ h2 {
 
 h3{
 	color: #566780;
-	font-family: 'Muli', sans-serif;
-	font-weight: lighter;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: bold;
 	text-align: center;
 	font-size: 40Px;
 
