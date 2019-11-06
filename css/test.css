@@ -1,0 +1,21 @@
+.diagonal-shape.bl-to-tr {
+height: 100;
+border-style: solid;
+border-width: 0 0 500px 100vw;
+border-color: transparent #d71f55 #d71f55 transparent;
+}
+.diagonal-shape.tr-to-bl {
+height: 0;
+border-style: solid;
+border-width: 500px 100vw 0 0;
+border-color: #d71f55 transparent transparent #d71f55;
+}
+
+.block {
+height: 200px;
+width: 1366px;
+line-height: 200px;
+background-color: #d71f55;
+color: white;
+text-align: center;
+}
