@@ -105,7 +105,7 @@ li {
 }
 
 label {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 20px;
 
 }
@@ -297,7 +297,7 @@ header section {
 .button a:hover {
 	color: white;
 	background: #566780;
-	font-family: Helvetica;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-weight: lighter;
 	text-decoration: none;
 }
@@ -339,7 +339,7 @@ header section {
 }
 
 .title_projet1 {
-	font-family: Helvetica;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-weight: lighter;
 	text-align: center;
 	font-size: 52Px;
@@ -585,7 +585,7 @@ flex-direction: column;
 @media (max-width: 668px) {
 	h1 {
 	font-size: 60px;
-	font-family: Futura;
+	font-family: 'Muli', sans-serif;
 	font-weight: lighter;
 	text-align: center;
 	color: #566780;
@@ -593,7 +593,7 @@ flex-direction: column;
 
 h2 {
 	font-size: 30px;
-	font-family: Futura;
+	font-family: 'Muli', sans-serif;
 	font-weight: bold;
 	text-align: center;
 	color: #566780;
@@ -602,7 +602,7 @@ h2 {
 
 h3{
 	color: #566780;
-	font-family: Futura;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-weight: lighter;
 	text-align: center;
 	font-size: 20Px;
@@ -610,7 +610,7 @@ h3{
 }
 p {
 	font-size: 14px;
-	font-family: Helvetica;
+	font-family: 'IBM Plex Sans', sans-serif;
 	text-align: center;
 	font-weight: lighter;
 	color: black;
