@@ -75,6 +75,12 @@ hr {
 
 li {
 	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-align: center;
+	font-weight: lighter;
+	color: black;
 }
 
 label {
@@ -358,6 +364,7 @@ header section {
 	max-width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
+	align-items: center;
 }
 
 .Projet2_image {
@@ -366,6 +373,7 @@ header section {
 
 .Projet2_text {
 	max-width: 50%;
+	padding: 10px;
 }
 
 /*Projet 3 */
@@ -471,29 +479,126 @@ flex-direction: column;
 }
 
 .article_projets {
-	display: flex;
 	margin: 0 auto;
-	max-width: 1000px;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: center;
+	max-width: 100%;
 }
 
 .projet {
-	width: 20%;
+	max-width: 20%;
+	display: block;
+	padding: 4px;
+	float: left;
+}
+
+.projet_afficheo {
+	max-width: 20%;
+	display: block;
+	padding: 4px;
+	float: left;
+}
+
+.projet_panneau1 {
+	max-width: 28%;
+	display: block;
+	padding: 4px;
+	float: left;
+}
+
+.projet_panneau2 {
+	max-width: 28%;
+	padding: 4px;
+	display: block;
+	float: left;
+}
+
+.projet_beach {
+	max-width: 32%;
+	padding: 4px;
+	display: block;
+	float: left;
+}
+
+.projet_blog {
+	max-width: 32%;
+	padding: 4px;
+	display: block;
+	float: left;
+}
+
+.projet_logo {
+	max-width: 30%;
+	padding: 4px;
+	display: block;
+	float: left;
+}
+
+.projet_spartan {
+	max-width: 30%;
 	display: block;
 }
 
-.projet_affiche {
-	width: 20%;
+#Projet2_ourson {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: row;
+	margin-top: 100px;
 }
 
-.projet_panneau {
-	width: 30%;
+#Projet2_hiver {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: row;
+	margin-top: 100px;
 }
 
-.projet_site {
-	width: 30%
+#Projet2_panneau {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: row;
+	margin-top: 100px;
+}
+
+#Projet2_panneau2 {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: row;
+	margin-top: 100px;
+}
+
+#Projet2_beach {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: row;
+	margin-top: 100px;
+}
+
+#Projet2_blog {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: row;
+	margin-top: 100px;
+}
+
+#Projet2_spartan {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: row;
+	margin-top: 100px;
+}
+
+#Projet2_bomber {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: row;
+	margin-top: 100px;
 }
 /* Booktypo*/
 
@@ -581,6 +686,61 @@ flex-direction: column;
 	.typo1 {
 		width: 80%;
 	}
+}
+
+
+@media (max-width: 800px) {
+
+	#projects_blocs {
+		display: none;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.article_projets {
+	display: none;
+	margin: 0 auto;
+	max-width: 100%;
+}
+	.projet {
+	max-width: 10%;
+	padding: 4px;
+}
+
+.projet_afficheo {
+	max-width: 10%;
+	padding: 4px;
+}
+
+.projet_panneau1 {
+	max-width: 18%;
+	padding: 4px;
+}
+
+.projet_panneau2 {
+	max-width: 18%;
+	padding: 4px;
+}
+
+.projet_beach {
+	max-width: 10%;
+	padding: 4px;
+}
+
+.projet_blog {
+	max-width: 1%;
+	padding: 4px;
+}
+
+.projet_logo {
+	max-width: 10%;
+	padding: 4px;
+}
+
+.projet_spartan {
+	max-width: 10%;
+	display: block;
+}
 }
 
 @media (max-width: 668px) {
